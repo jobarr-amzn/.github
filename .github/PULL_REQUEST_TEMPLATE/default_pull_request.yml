@@ -1,0 +1,32 @@
+name: Pull Request
+description: Submit a pull request
+title: ''
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+      Thanks for contributing to Ion!
+  - type: input
+    id: issues
+    attributes:
+      label: Issues
+      description: How can we get in touch with you if we need more info?
+      placeholder: eg. Fixes #46379
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Tell us what's included in this change and the rationale for any decisions that might not be obvious.
+    validations:
+      required: true
+  - type: checkboxes
+    id: license
+    attributes:
+      label: Licensing
+      description: By submitting this pull request, I confirm that my contribution is made under the terms of the Apache 2.0 license.
+      options:
+        - label: I confirm that my contribution is made under the terms of the Apache 2.0 license.
+      required: true
