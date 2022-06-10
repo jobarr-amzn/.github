@@ -4,8 +4,7 @@ about: Report a problem with this project
 title: ''
 labels: bug
 assignees: ''
+placeholder: |
+  Tell us about the problem you encountered.
+  If possible, include a [short, self-contained, correct example](https://sscce.org/).
 ---
-<!--
-Tell us about the problem you encountered.
-If possible, include a short, self-contained, correct example (https://sscce.org/).
--->
